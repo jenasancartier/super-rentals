@@ -1,6 +1,6 @@
-<h3>Announcements</h3>
+<h1>Announcements</h1>
 <ul>
   {{#each model as |announcement|}}
-    <li>{{announcement.news}}</li>
+    {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
