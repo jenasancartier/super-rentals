@@ -1,12 +1,21 @@
 <li>
-  {{rental.owner}}'s {{rental.type}} in {{rental.city}}
+  {{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city}}{{/link-to}}
   {{#if isImageShowing}}
     <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}}></p>
   {{else}}
     <button {{action 'imageShow'}}>Show image</button>
   {{/if}}
-
-  {{update-rental rental=rental update="update"}}
-  
-  <button {{action 'delete' rental}}>Delete Rental</button>
 </li>
+
+
+<!-- imageHide: function() {
+  this.set('isImageShowing', false);
+},
+update(rental, params) {
+  this.sendAction('update', rental, params);
+},
+delete(rental) {
+  if (confirm('Are you sure you want to delete this rental?')) {
+    this.sendAction('destroyRental', rental);
+  }
+} -->
