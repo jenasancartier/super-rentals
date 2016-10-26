@@ -18,12 +18,21 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
   }],
 
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  },{
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+    }],
 
-"announcements": [{
-  "news": "Free donuts on Wednesday!"
-}, {
-  "news": "New properties on the way, check back weekly to see our latest and greatest!"
-}, {
-  "news": "Join us this Saturday to discuss purchasing properties!"
-  }]
-}
+  "announcements": [{
+    "news": "Free donuts on Wednesday!"
+  }, {
+    "news": "New properties on the way, check back weekly to see our latest and greatest!"
+  }, {
+    "news": "Join us this Saturday to discuss purchasing properties!"
+    }]
+  }
