@@ -21,7 +21,7 @@
   "reviews": [{
     "author": "Andrea",
     "rating": 4,
-    "content": "Did not fall down."
+    "content": "Did not fall down.",
   },{
     "author": "Alex",
     "rating": 9,
