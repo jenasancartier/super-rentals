@@ -11,7 +11,7 @@ export default Ember.Component.extend({
       debugger;
      var params = {
        author: this.get('author'),
-       rating: this.get('rating'),
+       rating: parseInt(this.get('rating')),
        content: this.get('content'),
        rental: this.get('rental')
      };
